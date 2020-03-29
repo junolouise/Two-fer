@@ -9,7 +9,6 @@ class TwoFerTest < Minitest::Test
   end
 
   def test_a_name_given
-    skip
     assert_equal "One for Alice, one for me.", TwoFer.two_fer("Alice")
   end
 
